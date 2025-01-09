@@ -1,9 +1,9 @@
 print("welcome to the treasure island \nyour mission is to fine the treasure")
-step1=input("you are at a cross road ,where do you wanna go\n type 'right'or 'left:")
+step1=input("you are at a cross road ,where do you wanna go\n type 'right'or 'left:").lower()
 if step1=="left":
-    step2=input("swim or wait:")
+    step2=input("swim or wait:").lower()
     if step2=="wait":
-        step3=input("which door?red,yellow or blue:")
+        step3=input("which door?red,yellow or blue:").lower()
         if step3=="red":
             print("burned by a fire\n game over")
         elif step3=="yellow":
